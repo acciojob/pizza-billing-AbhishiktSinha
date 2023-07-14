@@ -76,7 +76,7 @@ public class Pizza {
     public String getBill() {
 
         if (!isBillGenerated) {
-            bill += "Total Bill: " + getPrice();
+            bill += "Total Price: " + getPrice();
             isBillGenerated = true;
         }
         return this.bill;
